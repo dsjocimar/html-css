@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'heavy';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+header {
+    color: white;
+    background-image: linear-gradient(180deg,#289659, #1A5C38);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1px 0px 0px 0px;
+}
+nav {
+    background-color: #1A5C38;    
+    text-align: left;
+    box-shadow: 2px 2px 2px black;
+    padding: 1px 0px;
+    
+}
+a {
+    color: white;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    border: solid rgb(5, 59, 14);
+    border-width: 0px 0px 0px 1px;
+}
+a:visited {
+    font-style: none;
+}
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 400px;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+span {
+    color: rgb(7, 92, 7);
+    font-weight: bolder;
+}
+p {
+    text-indent: 20px;
+}
+h1 {
+    font: bolder normal 2em 'heavy';
+    color: rgb(0, 90, 0);
+}
+h2 {
+    font: bolder normal 1.5em 'heavy';
+    background-image: linear-gradient(90deg, #5c9274b4, white);
+    padding: 10px;
+    color: rgb(0, 90, 0);
+}
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+.titulo-cabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.artigo {
+    background-color: #84E1AD;
+    border-radius: 10px;
+    padding: 10px;
+}
+.artigo-titulo {
+    background-color: #1A5C38;
+    color: white;
+    margin: -10px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font: bolder normal 1em arial;
+}
+div {
+    background-color: #1A5C38;
+    margin: 0px -20px 10px -20px;
+}
