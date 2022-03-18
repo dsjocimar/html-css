@@ -13,38 +13,42 @@
             border: 8px solid;
             width: 30%;
         }
-        td {
-            border: 1px solid;
-        }
-        #titulo-tabela {
+        thead {
             font-weight: bold;
             text-align: center;
+        }
+        td {
+            border: 1px solid;
         }
     </style>
 </head>
 <body>
     <h1>Tabela de produtos de informática</h1>  
     <table cellspacing="5">
-        <tr id="titulo-tabela">
-            <td>Produto</td>
-            <td>Preço</td>
-            <td>Quantidade</td>
-        </tr>
-        <tr>
-            <td>Pen drive 16GB</td>
-            <td>R$ 29,50</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td>HD Externo 1TB</td>
-            <td>R$ 244,90</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Total</td>
-            <td>R$ 519,30</td>
-            <td></td>
-        </tr>
+        <thead>
+            <tr>
+                <td>Produto</td>
+                <td>Preço</td>
+                <td>Quantidade</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pen drive 16GB</td>
+                <td>R$ 29,50</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>HD Externo 1TB</td>
+                <td>R$ 244,90</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>R$ 519,30</td>
+                <td></td>
+            </tr>
+        </tbody>
     </table>  
 </body>
 </html>
