@@ -5,30 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validação de formulátios em JS</title>
-    <script language="JavaScript">
-        function validaForm(f){
-            var reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/
-            if (f.nome.value == "" || f.nome.value == null || f.nome.value.lenght < 3)
-            {
-                alert("Nome inválido.");
-                f.nome.focus();
-                return false;
-            }
-            if (!(reg.test(f.email.value)) || f.email.value == null)
-            {
-                alert("E-mail inválido.");
-                f.email.focus();
-                return false;
-            }
-        }       //final validaForm
-    </script>
 </head>
 <body>
-    <form name="forml" method="post" onSubmit="return validaForm(this);">
+    <form name="forml" method="post" onsubmit="validaForm(this)">
         <p>Validação de formulário</p>
         <p>Nome: <input type="text" name="nome"></p>
         <p>E-mail: <input type="text" name="email"></p>
-        <p><label><input type="submit" name="submeter" value="Enviar"></label></p>
+        <p><label><input type="submit" name="submeter" value="enviar"></label></p>
     </form>
+    <script>
+        function validaForm(f) {
+            if (f.nome.value == ""||f.nome.value.length < 3) {
+                alert('Nome inválido!');
+                return false;
+            }
+            if (f.email.value == "") {
+                alert('E-mail inválido!')
+                return false;
+            }
+            alert('Dados enviados com sucesso!')
+        }
+    </script>
 </body>
 </html>
