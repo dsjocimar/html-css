@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Shorthand font
+- font-style -> font-weight -> font-size -> font-family
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+body {
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Passion One', cursive;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding: 50px;
+    font-size: 16px;
+    font-family: 'Verdana';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+    
+}
+
+.cabecalho {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: aquamarine;
+    color: white;
+}
+
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.251);
+    width: 400px;
+}
+
+footer {
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+

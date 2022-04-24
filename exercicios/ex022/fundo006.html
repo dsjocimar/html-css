@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            /*width: 100%;*/
+            /*width: 100%;
             background-color: black;background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center center;
-            background-size: cover; 
-            /* - por padrão, o background-size ele é auto
+            background-size: cover;
+
+            - por padrão, o background-size ele é auto
             - contain: faz com que a imagem fique 100% exibida;
-            - cover: faz com que a imagem cubra a tela inteira.*/
+            - cover: faz com que a imagem cubra a tela inteira.
+
+            background-attachment: fixed;
+            - scroll: rola a img junto com o conteúdo;
+            - fixed: img fica fixo;*/
+
+            /*Shorthand background: color > imagem > position > repeat > [size] > attachment*/
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
@@ -32,7 +41,9 @@
     <main>
         <h1>
             Teste de imagem de fundo
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat praesentium impedit accusamus, molestiae magni illo ut, nam saepe fugiat cum rem. Magni consectetur perspiciatis, officiis a fugit cumque eveniet!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat praesentium impedit accusamus, molestiae magni illo ut, nam saepe fugiat cum rem. Magni consectetur perspiciatis, off
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ut consequuntur ea? Necessitatibus expedita, ipsum hic nostrum reprehenderit doloremque iste optio id, rem sequi vel sed totam enim, dolor eveniet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquid doloribus aliquam perspiciatis perferendis sequi, illum hic totam cum autem asperiores obcaecati ut cumque ipsum eveniet voluptatum neque nisi. Reprehenderit.</p>
             
         </h1>
     </main>
