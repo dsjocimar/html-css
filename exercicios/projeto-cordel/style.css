@@ -45,6 +45,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.cabecalho {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 
 section {
     padding: 10vh 0px 10vh 30px;
@@ -53,26 +58,32 @@ section {
     font-size: 3.5vw;
 }
 
-.cabecalho {
-    background-color: black;
-    color: white;
-    text-align: center;
+section p {
+    padding-bottom: 2em;
 }
 
-.normal {
+section.normal {
     background-color: white;
     color: black;
 }
 
 .imagem {
-    background-color: aquamarine;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.510); 
 }
 
-.imagem p {
+.imagem > p {
     background-color: rgba(0, 0, 0, 0.251);
     display: inline-block;
     padding: 5px;
+}
+
+#img1 {
+    background: #ffffff url('imagens/background001.jpg') no-repeat fixed right center;
+}
+
+#img2 {
+    background: #ffffff url('imagens/background002.jpg') no-repeat fixed right center;
 }
 
 footer {
